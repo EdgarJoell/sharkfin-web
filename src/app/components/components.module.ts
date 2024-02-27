@@ -14,7 +14,8 @@ import { HomeComponent } from './home/home.component';
     SharedModule
   ],
   exports: [
-    HomeComponent
+    HomeComponent,
+    SharedModule
   ]
 })
 export class ComponentsModule { }
