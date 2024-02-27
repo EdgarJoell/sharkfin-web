@@ -7,8 +7,6 @@ import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-
-  
     HomeComponent
   ],
   imports: [
@@ -16,7 +14,7 @@ import { HomeComponent } from './home/home.component';
     SharedModule
   ],
   exports: [
-    
+    HomeComponent
   ]
 })
 export class ComponentsModule { }
