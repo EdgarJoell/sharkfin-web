@@ -2,26 +2,32 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from './shared/shared.module';
 import { HomeComponent } from './home/home.component';
-import { LoginRegisterModule } from './login-register/login-register.module';
 import { AccountsComponent } from './accounts/accounts.component';
+import { BrowseComponent } from './browse/browse.component';
+import { RecommendationsComponent } from './recommendations/recommendations.component';
+import { LoginRegisterComponent } from './login-register/login-register.component';
 
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    AccountsComponent
+    AccountsComponent,
+    BrowseComponent,
+    RecommendationsComponent,
+    LoginRegisterComponent
   ],
   imports: [
     CommonModule,
     SharedModule,
-    LoginRegisterModule
   ],
   exports: [
     HomeComponent,
     SharedModule,
-    LoginRegisterModule,
-    AccountsComponent
+    AccountsComponent,
+    BrowseComponent,
+    RecommendationsComponent,
+    LoginRegisterComponent
   ]
 })
 export class ComponentsModule { }
