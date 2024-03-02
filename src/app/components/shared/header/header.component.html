@@ -6,16 +6,16 @@
    <div id="navbarNav" class="middle">
       <ul class="navbar-nav d-flex flex-row">
          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="#">Movies</a>
+            <a class="nav-link" routerLink="#">Movies</a>
          </li>
          <li *ngIf="!signedIn" class="nav-item">
-            <a class="nav-link" href="#">Login / Register</a>
+            <a class="nav-link" routerLink="/login">Login / Register</a>
          </li>
          <li [hidden]="!signedIn">
-            <a class="nav-link" href="#">Account</a>
+            <a class="nav-link" routerLink="#">Account</a>
          </li>
       </ul>
    </div>
