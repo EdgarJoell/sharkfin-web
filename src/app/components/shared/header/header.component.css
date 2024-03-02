@@ -1,0 +1,28 @@
+#fin-logo {
+   font-family: "Caveat", sans-serif;
+   font-size: 36pt;
+}
+
+nav, li {
+   padding: 1% 4%;
+}
+
+.profile-icon {
+   width: 7%;
+   margin-right: 4%;
+}
+
+.left {
+   width: 25%;
+   max-width: 300px;
+}
+
+.middle {
+   width: 20%;
+   max-width: 300px;
+}
+
+.right {
+   width: 20%;
+   max-width: 350px;
+}

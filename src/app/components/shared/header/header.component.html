@@ -1,1 +1,29 @@
-<p>header works!</p>
+<nav class="navbar bg-body-tertiary d-flex justify-content-between">
+   <div class="left">
+      <a id="fin-logo" class="navbar-brand" href="#">"-fin-"</a>
+   </div>
+
+   <div id="navbarNav" class="middle">
+      <ul class="navbar-nav d-flex flex-row">
+         <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+         </li>
+         <li *ngIf="!signedIn" class="nav-item">
+            <a class="nav-link" href="#">Login / Register</a>
+         </li>
+         <li [hidden]="!signedIn">
+            <a class="nav-link" href="#">Account</a>
+         </li>
+      </ul>
+   </div>
+
+   <div class="d-flex justify-content-end right">
+      <form class="d-flex" role="search">
+         <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+         <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+   </div>
+</nav>
