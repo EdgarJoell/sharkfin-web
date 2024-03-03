@@ -6,19 +6,19 @@
    <div id="navbarNav" class="middle">
       <ul class="navbar-nav d-flex flex-row">
          <li class="nav-item">
-            <a class="nav-link hovered" aria-current="page" routerLink="">Home</a>
+            <a class="nav-link hovered" aria-current="page" routerLink="" (click)="global.scrollToTop()">Home</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link hovered" routerLink="/browse">Browse</a>
+            <a class="nav-link hovered" routerLink="/browse" (click)="global.scrollToTop()">Browse</a>
          </li>
          <li *ngIf="!signedIn" class="nav-item">
-            <a class="nav-link hovered" routerLink="/login">Login / Register</a>
+            <a class="nav-link hovered" routerLink="/login" (click)="global.scrollToTop()">Login / Register</a>
          </li>
          <li *ngIf="signedIn" class="nav-item">
-            <a class="nav-link hovered" routerLink="/recommendations">Recommendations</a>
+            <a class="nav-link hovered" routerLink="/recommendations" (click)="global.scrollToTop()">Recommendations</a>
          </li>
          <li *ngIf="signedIn">
-            <a class="nav-link hovered" routerLink="/account">Account</a>
+            <a class="nav-link hovered" routerLink="/account" (click)="global.scrollToTop()">Account</a>
          </li>
       </ul>
    </div>

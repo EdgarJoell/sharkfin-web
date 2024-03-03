@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalfuncsService } from 'src/app/service/globalfuncs.service';
 
 @Component({
   selector: 'fin-header',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   signedIn: boolean = false;
 
-  constructor() { }
+  constructor(public global: GlobalfuncsService) { }
 
   ngOnInit(): void {
   }
