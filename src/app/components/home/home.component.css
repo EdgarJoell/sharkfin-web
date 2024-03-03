@@ -51,3 +51,24 @@ span {
    max-width: 350px;
    min-height: 30rem;
 }
+
+.join {
+   font-family: "Merriweather", sans-serif;
+   text-align: center;
+   margin: auto;
+   margin: 5% auto;
+}
+
+.join-text {
+   width: 70%;
+   max-width: 1200px;
+   margin: 5% auto;
+}
+
+.join-p {
+   font-size: 18pt;
+}
+
+button {
+   font-size: 16pt;
+}

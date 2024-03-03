@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalfuncsService } from 'src/app/service/globalfuncs.service';
 
 @Component({
   selector: 'fin-home',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(public global: GlobalfuncsService) { }
 
   ngOnInit(): void {
   }
