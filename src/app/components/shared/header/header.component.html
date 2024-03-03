@@ -1,24 +1,24 @@
-<nav class="navbar bg-body-tertiary d-flex justify-content-between">
+<nav class="navbar bg-dark border-bottom border-body d-flex justify-content-between" data-bs-theme="dark">
    <div class="left">
-      <a id="fin-logo" class="navbar-brand" href="#">"-fin-"</a>
+      <a id="fin-logo" class="" routerLink="">"-fin-"</a>
    </div>
 
    <div id="navbarNav" class="middle">
       <ul class="navbar-nav d-flex flex-row">
          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+            <a class="nav-link hovered" aria-current="page" routerLink="">Home</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" routerLink="/browse">Browse</a>
+            <a class="nav-link hovered" routerLink="/browse">Browse</a>
          </li>
          <li *ngIf="!signedIn" class="nav-item">
-            <a class="nav-link" routerLink="/login">Login / Register</a>
+            <a class="nav-link hovered" routerLink="/login">Login / Register</a>
          </li>
          <li *ngIf="signedIn" class="nav-item">
-            <a class="nav-link" routerLink="/recommendations">Recommendations</a>
+            <a class="nav-link hovered" routerLink="/recommendations">Recommendations</a>
          </li>
          <li *ngIf="signedIn">
-            <a class="nav-link" routerLink="/account">Account</a>
+            <a class="nav-link hovered" routerLink="/account">Account</a>
          </li>
       </ul>
    </div>
@@ -26,7 +26,7 @@
    <div class="d-flex justify-content-end right">
       <form class="d-flex" role="search">
          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-         <button class="btn btn-outline-success" type="submit">Search</button>
+         <button class="btn btn-outline-primary" type="submit">Search</button>
       </form>
    </div>
 </nav>

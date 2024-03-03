@@ -1,10 +1,28 @@
 #fin-logo {
    font-family: "Caveat", sans-serif;
    font-size: 36pt;
+   text-decoration: none;
 }
 
 nav, li {
    padding: 1% 4%;
+   color: white;
+}
+
+/* nav {
+   background-color: #303030;
+} */
+
+a {
+   color: white;
+}
+
+.hovered:hover {
+   color: rgb(35, 83, 255);
+}
+
+.hovered:active {
+   color: rgb(35, 83, 255);
 }
 
 .profile-icon {
