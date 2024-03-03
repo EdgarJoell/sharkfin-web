@@ -1,0 +1,53 @@
+.hero-containerr {
+   width: 100%;
+   max-width: 1900px;
+   margin: auto;
+   padding: 4% 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.headings {
+   text-align: center;
+   color: white;
+   width: 80%;
+   margin: 5% 0 5% 15%;
+   font-family: "Merriweather", sans-serif;
+}
+
+span {
+   font-family: "Caveat", sans-serif;
+   font-size: 36pt;
+}
+
+#hero-img {
+   width: 40%;
+   border-radius: 20px;
+   margin-right: 5%;
+}
+
+.containerr {
+   width: 100%;
+}
+
+.containerr > h2 {
+   text-align: center;
+   margin-top: 3%;
+}
+
+#cards-container {
+   width: 85%;
+   max-width: 1600px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 5% auto;
+}
+
+.cards {
+   width: 20%;
+   max-width: 350px;
+   min-height: 30rem;
+}
