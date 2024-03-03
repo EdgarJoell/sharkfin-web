@@ -6,6 +6,7 @@ import { AccountsComponent } from './accounts/accounts.component';
 import { BrowseComponent } from './browse/browse.component';
 import { RecommendationsComponent } from './recommendations/recommendations.component';
 import { LoginRegisterComponent } from './login-register/login-register.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -20,6 +21,7 @@ import { LoginRegisterComponent } from './login-register/login-register.componen
   imports: [
     CommonModule,
     SharedModule,
+    AppRoutingModule,
   ],
   exports: [
     HomeComponent,
