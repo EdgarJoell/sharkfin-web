@@ -1,0 +1,28 @@
+#search-div {
+   margin: 1% auto;
+}
+
+#movies-section {
+   width: 100%;
+   display: flex;
+
+}
+
+#filters {
+   width: 15%;
+   border: solid 2px black;
+}
+
+#results {
+   width: 85%;
+   border: solid 2px black;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   align-items: center;
+}
+
+.movie-card {
+   margin: 5% auto;
+}

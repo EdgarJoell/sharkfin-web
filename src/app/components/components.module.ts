@@ -7,6 +7,7 @@ import { BrowseComponent } from './browse/browse.component';
 import { RecommendationsComponent } from './recommendations/recommendations.component';
 import { LoginRegisterComponent } from './login-register/login-register.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -22,6 +23,7 @@ import { AppRoutingModule } from '../app-routing.module';
     CommonModule,
     SharedModule,
     AppRoutingModule,
+    FormsModule
   ],
   exports: [
     HomeComponent,
